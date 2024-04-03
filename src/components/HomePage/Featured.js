@@ -12,7 +12,7 @@ import {
 function Featured(props) {
   useEffect(() => {
     props.getProducts();
-    //eslint-disable-next-line
+    
   }, []);
 
   return (
